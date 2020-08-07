@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAwesomeChat - Realtime Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="chat.png">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="">
+        <h1 class="heading">Welcome to MyAwesomeChat - Realtime Chat App</h1>
+    </nav>
+    <div class="container">
+       
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder=" Enter Your Message...">
+            <button class="btn" type="submit">Send</button>
+        </form>
+        <section id="client-section">
+            <h1 class="h-primary center" style="color: white;">Our Sponsors</h1>
+            <div id="clients">
+                <div class="client-item">
+                    <img src="profile.png" alt="Our Client">
+                </div>
+                <h1 style="color: white;">Coding With Rick</h1>
+                
+<!--               
+                <div class="client-item">
+                    <img src="img/logo4.png" alt="Our Client">
+                </div>
+                <div class="client-item">
+                    <img src="img/logo3.png" alt="Our Client">
+                </div> -->
+            </div>
+            <footer>
+                <div class="center" style="color: white;">
+                    <h2>Copyright &copy; www.MyAwesomeChat.com - All rights reserved!</h2>
+                </div>
+            </footer>
+    
+        </section>
+    </div>
+</body>
+</html>

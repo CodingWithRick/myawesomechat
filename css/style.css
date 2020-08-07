@@ -1,0 +1,107 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 6px;
+}
+.heading{
+    text-align: center;
+    color: blueviolet;
+    
+}
+body{
+    background: url(/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 800px;
+    color: black;
+    border: 6px solid purple;
+    margin: auto;
+    height: 60vh;
+    border-radius: 10px;
+    background: none;
+    
+    padding: 33px;
+    overflow-y: auto;
+}
+.message{
+    
+    width: 24%;
+    padding: 10px ;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: white;
+
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: greenyellow;
+
+}
+#send-container{
+    padding: 6px ;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 895px;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#messageInp{
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 6px;
+    height: 37px;
+    background: none;
+    color:white;
+    background-color: purple;
+    width: 7%;
+
+}
+.btn:hover{
+    color:purple; 
+    background-color: white;
+    opacity: 0.5;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 124px;
+}
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+    
+}
+
